@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_16c4fb226ca49b1785f07b6e2590c9969cf69e31\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\VideoPlayback-6-2-10\app\libs\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="177fc09d70ae5f94117c9ea1a7b3bec42c9d48b4">
+        <dex dex="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\VideoPlayback-6-2-10\app\build\intermediates\pre-dexed\debug\Vuforia_60ddbf1b5a014edee3772c8836779310a76e124c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\libs\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="177fc09d70ae5f94117c9ea1a7b3bec42c9d48b4">
+        <dex dex="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\build\intermediates\pre-dexed\debug\Vuforia_40aa0313560d2e54a28575e2644728163f9696b0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="177fc09d70ae5f94117c9ea1a7b3bec42c9d48b4">
+        <dex dex="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_40aa0313560d2e54a28575e2644728163f9696b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15371516a41e60e65ec596bfc1cbd71a4d158ff1">
+        <dex dex="C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8dcc695dd3b082c48bc944bd5a4dd075cfc7b43c\classes.dex" />
+    </item>
+
+</items>

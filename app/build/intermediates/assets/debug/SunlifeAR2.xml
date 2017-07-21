@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="enfield" size="0.247000 0.164491" />
+    <ImageTarget name="greatplace" size="0.360000 0.349028" />
+    <ImageTarget name="timwoods" size="0.360000 0.202580" />
+    <ImageTarget name="gltwf" size="0.247000 0.570959" />
+    <ImageTarget name="SunlifeBrighter" size="0.247000 0.139143" />
+    <ImageTarget name="sunlife02" size="0.247000 0.173059" >
+ <VirtualButton name="knowmoreAR2" enabled="true" rectangle="-0.108 -0.065 -0.075 -0.077" />
+        <VirtualButton name="call" enabled="true" rectangle="0.076 -0.065 0.109 -0.077"/>
+
+</ImageTarget>
+  </Tracking>
+</QCARConfig>

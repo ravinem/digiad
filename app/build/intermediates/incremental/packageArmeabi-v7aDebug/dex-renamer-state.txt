@@ -1,0 +1,7 @@
+#Thu Jul 20 01:14:50 PDT 2017
+base.0=C\:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8dcc695dd3b082c48bc944bd5a4dd075cfc7b43c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_16c4fb226ca49b1785f07b6e2590c9969cf69e31\\classes.dex
+base.1=C\:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_16c4fb226ca49b1785f07b6e2590c9969cf69e31
+file.0=C\:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8dcc695dd3b082c48bc944bd5a4dd075cfc7b43c\\classes.dex

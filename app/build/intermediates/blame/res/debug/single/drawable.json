@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "C:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vuforia_splash.png",
+        "source": "C:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\src\\main\\res\\drawable\\vuforia_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\sunlife\\Downloads\\vuforia-samples-advanced-android-6-2-10\\sunlife-digiad\\app\\src\\main\\res\\drawable\\icon.png"
+    }
+]

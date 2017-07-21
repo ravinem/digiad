@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+def VUFORIA_SDK_DIR = 'C:\\Users\\sunlife\\Downloads\\vuforia-sdk-android-6-2-10'
+def NATIVE_LIB_DIR = 'build/lib'
+def JAR_DIR = 'build/java/vuforia'
+
+android {
+
+    compileSdkVersion 22
+    buildToolsVersion '25.0.0'
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDir "$VUFORIA_SDK_DIR/$NATIVE_LIB_DIR/"
+    }
+    defaultConfig {
+        applicationId 'com.sunlife.digiad.VideoPlayback'
+        minSdkVersion 8
+        targetSdkVersion 22
+        versionCode 600
+        versionName "6.0"
+    }
+    archivesBaseName = rootProject.projectDir.getName()
+
+    buildTypes {
+
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi', 'armeabi-v7a', 'x86'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+}

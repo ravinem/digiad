@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:2:1-124:12
+	package
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:14:5-74
+	android:targetSdkVersion
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:14:42-71
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:14:15-41
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:16:5-54
+	android:glEsVersion
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:16:19-51
+uses-feature#android.hardware.camera
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:32:5-60
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:32:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:37:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:42:5-66
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:42:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:48:5-79
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:48:22-76
+application
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:66:5-122:19
+	android:label
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:68:9-41
+	android:launchMode
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:70:9-40
+	android:allowBackup
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:71:9-35
+	android:icon
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:67:9-38
+	android:description
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:69:9-54
+	android:theme
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:72:9-47
+activity#com.sunlife.digiad.VideoPlayback.ui.ActivityList.ActivitySplashScreen
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:78:10-89:21
+	android:screenOrientation
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:81:13-49
+	android:noHistory
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:82:13-37
+	android:configChanges
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:80:13-63
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:79:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:84:13-88:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:85:17-69
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:85:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:87:17-77
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:87:27-74
+activity#com.sunlife.digiad.VideoPlayback.ui.ActivityList.AboutScreen
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:91:10-96:20
+	android:screenOrientation
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:94:13-49
+	android:configChanges
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:93:13-63
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:92:13-56
+activity#com.sunlife.digiad.VideoPlayback.app.VideoPlayback.VideoPlayback
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:98:9-103:15
+	android:launchMode
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:102:11-42
+	android:configChanges
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:100:13-93
+	android:theme
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:101:10-48
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:99:13-60
+activity#com.sunlife.digiad.VideoPlayback.app.VideoPlayback.FullscreenPlayback
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:109:9-120:20
+	android:screenOrientation
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:113:11-48
+	android:label
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:109:19-51
+	android:launchMode
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:112:11-42
+	android:exported
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:114:13-37
+	android:configChanges
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:111:13-93
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:110:13-65
+intent-filter#android.intent.action.VIEW
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:116:13-118:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:117:17-69
+	android:name
+		ADDED from C:\Users\sunlife\Downloads\vuforia-samples-advanced-android-6-2-10\sunlife-digiad\app\src\main\AndroidManifest.xml:117:25-66

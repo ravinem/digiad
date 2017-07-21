@@ -1,0 +1,40 @@
+<Targets>
+    <Target>
+        <Name>enfield</Name>
+        <Video>VideoPlayback/future.mp4</Video>
+        <Id>0</Id>
+    </Target>
+
+    <Target>
+        <Name>greatplace</Name>
+        <Video>VideoPlayback/future.mp4</Video>
+        <Id>1</Id>
+    </Target>
+
+    <Target>
+        <Name>timwoods</Name>
+        <Video>VideoPlayback/SunlifeBrighter.mp4</Video>
+        <Id>2</Id>
+    </Target>
+
+    <Target>
+        <Name>gltwf</Name>
+        <Video>VideoPlayback/SunlifeBrighter.mp4</Video>
+        <Id>3</Id>
+    </Target>
+
+    <Target>
+        <Name>SunlifeBrighter</Name>
+        <Video>VideoPlayback/SunlifeBrighter.mp4</Video>
+        <Id>4</Id>
+    </Target>
+
+
+    <Target>
+        <Name>sunlife02</Name>
+        <Video>VideoPlayback/sunlife02.mp4</Video>
+        <Id>5</Id>
+    </Target>
+
+
+</Targets>
