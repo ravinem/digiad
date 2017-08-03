@@ -1,6 +1,8 @@
 
 package com.sunlife.digiad.VideoPlayback.app.VideoPlayback;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -553,7 +555,7 @@ public class VideoPlayback extends Activity implements
         
         // Load the data sets:
         if (!dataSetSunlife.load("SunlifeAR2.xml",
-            STORAGE_TYPE.STORAGE_APPRESOURCE))
+            STORAGE_TYPE.STORAGE_APP))
         {
             Log.d(LOGTAG, "Failed to load data set.");
             return false;
@@ -826,7 +828,9 @@ public class VideoPlayback extends Activity implements
         }
         try
         {
-            in = mActivity.getAssets().open("TargetVideoMapping.xml");
+            File file = new File(mActivity.getFilesDir().getAbsolutePath() + "/" + "TargetVideoMapping.xml");
+            in = new FileInputStream(file);
+            //in = mActivity.getFilesDir(). .open("TargetVideoMapping.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(in);

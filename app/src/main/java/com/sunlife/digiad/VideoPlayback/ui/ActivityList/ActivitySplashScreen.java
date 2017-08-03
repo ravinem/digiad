@@ -1,7 +1,9 @@
 package com.sunlife.digiad.VideoPlayback.ui.ActivityList;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -24,9 +26,7 @@ public class ActivitySplashScreen extends Activity
     {
         super.onCreate(savedInstanceState);
 
-       // DataSetManager dsmn = new DataSetManager();
-        //dsmn.getDataset(ActivitySplashScreen.this);
-String gf = getPackageName();
+        CreateNewFile();
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -57,6 +57,27 @@ String gf = getPackageName();
             }
             
         }, SPLASH_MILLIS);
+    }
+
+    public void CreateNewFile()
+    {
+        try {
+            SharedPreferences settings =  this.getSharedPreferences("setts",Context.MODE_PRIVATE);
+            String ExistingHash = settings.getString("LastHash","0");
+            String url = "http://arservice.somee.com/Home/GetHash";
+            String NewHash = new HttpAsyncTask().execute(url).get();
+            if(!ExistingHash.equals(NewHash)) {
+                String url1 = "http://arservice.somee.com/data/SunlifeAR2.xml";
+                String url2 = "http://arservice.somee.com/data/SunlifeAR2.dat";
+                String url3 = "http://arservice.somee.com/data/TargetVideoMapping.xml";
+                Object object = new DownloadFilesTask(this).execute(url1, url2, url3).get();
+                SharedPreferences.Editor editor= settings.edit();
+                editor.putString("LastHash",NewHash);
+                editor.commit();
+            }
+        } catch (Exception ex) {
+            return;
+        }
     }
     
 }
